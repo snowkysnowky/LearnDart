@@ -14,4 +14,10 @@ class LongReadData implements DataReader {
     print('performing logic');
     return 'Yes oke';
   }
+
+  @override
+  String functionFill() {
+    // TODO: implement functionFill
+    throw UnimplementedError();
+  }
 }
